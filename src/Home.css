@@ -1,0 +1,11 @@
+/* Home.css */
+
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 -4px 8px rgba(0, 0, 0, 0.5), 4px 0 8px rgba(0, 0, 0, 0.5), -4px 0 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+  
+.shadow-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6), 0 -6px 12px rgba(0, 0, 0, 0.6), 6px 0 12px rgba(0, 0, 0, 0.6), -6px 0 12px rgba(0, 0, 0, 0.6);
+}
